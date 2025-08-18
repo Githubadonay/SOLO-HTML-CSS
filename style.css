@@ -21,15 +21,15 @@ a {
   color: black;
   text-decoration: none;
 }
-button{
+button {
   cursor: pointer;
 }
 
 /* navigaition */
 
 nav {
-  box-shadow: 0px 4px 5px 0px rgb(0, 0, 0, 0.2);
   height: 115px;
+  width: 100%;
 }
 
 .nav__row {
@@ -45,7 +45,7 @@ nav {
 
 .nav__links {
   display: flex;
-  gap: 24px;
+  gap: 29px;
 }
 .nav__link {
   font-size: 18px;
@@ -70,4 +70,11 @@ nav {
   padding: 12px 20px;
   font-weight: bold;
   font-size: 18px;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  transition: 400ms ease;
+}
+
+.nav__button__register:hover {
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
+  background-color: #fa3719;
 }
