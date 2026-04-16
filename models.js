@@ -3,7 +3,6 @@ async function fetchModels() {
     const data = await response.json();
     const models = data.data;
     return models;
-    
 }
 
 async function renderModels(){
