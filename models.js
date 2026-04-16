@@ -22,7 +22,6 @@ async function renderModels(){
             models.sort((a, b) => b.per_day_price - a.per_day_price);
         }
 
-
         const modelsHTML = models.map((model) => {return ` <div class="model">
                 <img src="https://car-rental-api.up.railway.app/${model.image}" alt="" class="model__img" />
                 <div class="model__details model__details-1">
